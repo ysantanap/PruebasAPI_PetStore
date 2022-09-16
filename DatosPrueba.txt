@@ -1,0 +1,31 @@
+**** E1 ****
+{
+  "id": 2503,
+  "username": "ysantanap",
+  "firstName": "Yudisel",
+  "lastName": "Santana Pacheco",
+  "email": "y@y.com",
+  "password": "250386",
+  "phone": "244841069969",
+  "userStatus": 1
+}
+
+{
+  "id": 8970,                    31982292     51949492            37910078        64279647
+  "username": "amelias",         Toby.Erdman  Justyn_Nienow8      Mikayla.Metz59  Abe_Kessler
+  "firstName": "aliaga",		      Rocio		  Sigmund         Justice
+  "lastName": "benavides",							  Brekke
+  "email": "aa@a.com",
+  "password": "aaa",
+  "phone": "23455",
+  "userStatus": 7
+
+
+pm.globals.set("id", pm.variables.replaceIn('{{$randomBankAccount}}'));
+pm.globals.set("username", pm.variables.replaceIn('{{$randomUserName}}'));          
+pm.globals.set("firstName", pm.variables.replaceIn('{{$randomFirstName}}'));
+pm.globals.set("lastName", pm.variables.replaceIn('{{$randomLastName}}'));
+pm.globals.set("email", pm.variables.replaceIn('{{$randomEmail}}'));
+pm.globals.set("password", pm.variables.replaceIn('{{$randomPassword}}'))
+pm.globals.set("phone", pm.variables.replaceIn('{{$randomPhoneNumber}}'));
+pm.globals.set("userStatus", pm.variables.replaceIn('{{$randomAlphaNumeric}}'));
